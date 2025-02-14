@@ -1,17 +1,9 @@
 export default function Layout({ children }) {
     return (
-
-
-        <div className="pt-20 text-center space-y-4">
-            <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-                Steven Godinez
-            </h1>
-            <p className="text-xl text-gray-400">Software Engineer</p>
-
-
-
-
-
+        <div className="min-h-screen bg-transparent text-gray-200 px-6"> {/* do not change transperance  */}
+            <div className="mb-8">
+                {children}
+            </div>
             <div className="max-w-xl mx-auto">
                 <div className="relative rounded-lg bg-slate-900 p-2">
                     <div className="relative flex text-center">
@@ -19,10 +11,10 @@ export default function Layout({ children }) {
                             <svg viewBox="0 0 24 24" fill="currentColor" className="-ml-0.5 mr-1.5 h-3 w-3 text-red-500/20">
                                 <circle r="12" cy="12" cx="12"></circle>
                             </svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor" className="-ml-0.75 mr-1.5 h-3 w-3 text-blue-500/20">
+                            <svg viewBox="0 0 24 24" fill="currentColor" className="-ml-0.75 mr-1.5 h-3 w-3 text-yellow-500/20">
                                 <circle r="12" cy="12" cx="12"></circle>
                             </svg>
-                            <svg viewBox="0 0 24 24" fill="currentColor" className="-ml-0.75 mr-1.5 h-3 w-3 text-pink-500/20">
+                            <svg viewBox="0 0 24 24" fill="currentColor" className="-ml-0.75 mr-1.5 h-3 w-3 text-green-500/20">
                                 <circle r="12" cy="12" cx="12"></circle>
                             </svg>
                         </div>
@@ -32,11 +24,6 @@ export default function Layout({ children }) {
                         <p className="text-slate-400">{`{`}</p>
                         <p className="text-pink-400">
                             "info": <span className="text-white">{`{`}</span>
-                        </p>
-                        <p className="ml-8">
-                            <span className="text-pink-400">"name":</span>
-                            <span className="text-blue-300"> "Steven Godinez"</span><span
-                            className="text-slate-400">,</span>
                         </p>
                         <p className="ml-8">
                             <span className="text-pink-400">"email":</span>
@@ -162,10 +149,6 @@ export default function Layout({ children }) {
                     </div>
                 </div>
             </div>
-
-            {/* kids go here */}
-
-            this is me
         </div>
     )
 }
