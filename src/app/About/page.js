@@ -15,8 +15,7 @@ export default function HomePage() {
                 {/* this is right */}
                 <div className="space-y-4">
                     <h1 className="text-5xl font-bold text-purple-400">Steven Godinez</h1>
-                    <p className="text-xl text-gray-400">Software Engineer | AI & Cybersecurity
-                        Enthusiast</p>
+                    <p className="text-xl text-gray-400">Software Engineer | AI Enthusiast</p>
                     <p className="text-lg text-gray-300">
                         Hi! I am a current Sophomore at <span className="text-purple-300">Northeastern University </span>
                         studying <span

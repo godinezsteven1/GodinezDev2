@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
         {/* Fixed Navigation Bar */}
         <nav className="fixed top-0 w-full bg-gray-800 h-16 flex items-center z-50">
             <div className="max-w-6xl mx-auto flex justify-center space-x-6 w-full">
-                {['about', 'terminal', '3D-Playground'].map((item) => (
+                {['About', 'Projects', 'Terminal', '3D-Playground', 'Contact'].map((item) => (
                     <a
                         key={item}
                         href={`/${item}`}
